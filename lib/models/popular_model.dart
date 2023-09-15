@@ -20,7 +20,7 @@ class PopularDietsModel {
 
     popularDiets.add(
       PopularDietsModel(
-        name: 'Blueberry Pancake',
+        name: 'Pastel de Arandano',
         iconPath: 'assets/icons/blueberry.svg',
         level: 'Medium',
         duration: '30min',

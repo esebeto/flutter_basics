@@ -326,7 +326,7 @@ class _HomePageState extends State<HomePage> {
             borderSide: BorderSide.none,
           ),
           prefixIcon: Padding(
-            padding: const EdgeInsets.all(16),
+            padding: const EdgeInsets.all(24),
             child: SvgPicture.asset("assets/icons/search.svg"),
           ),
           suffixIcon: SizedBox(
@@ -357,7 +357,7 @@ class _HomePageState extends State<HomePage> {
   appBar() {
     return AppBar(
       title: const Text(
-        "Breakfast",
+        "Desayuno",
         style: TextStyle(
           color: Colors.black,
           fontSize: 18,
